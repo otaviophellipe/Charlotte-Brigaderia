@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charlotte Brigaderia - Jacqueline Mesquita</title>
+    <link rel="icon" href="img/Logo2.PNG" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+        <div class="header-text">
+            </div>
+            <div class="header-elements">
+                <img src="img/Logo1.PNG" alt="Charlotte Brigaderia Logo" class="logo">
+                <div class="search-bar">
+                    <input type="text" id="search-input" placeholder="Buscar no site...">
+                    <button id="search-btn" class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <a href="https://wa.me5531986121129" target="_blank" class="whatsapp-btn">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <button id="toggle-header-btn" class="toggle-header-btn">
+                    <img id="toggle-icon" src="img/header/seta-cima-bordo.png" alt="Toggle Header" class="toggle-icon">
+                </button>
+            </div>
+        </div>
+    </header>
+    <button id="show-header-btn" class="show-header-btn" style="display: none;">
+        <img src="img/header/seta-baixo.png" alt="Show Header" class="show-icon">
+    </button>
+    <section id="hero" class="section hero" style="background-image: url('img/waves/wave-bordo.jpg'); background-repeat: no-repeat; background-position: top; background-size: 100% auto;">
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="img/Hero.jpg" alt="Foto da Charlotte Brigaderia" class="hero-photo">
+            </div>
+            <div class="hero-text">
+
+                <h1></h1>
+                <img src="img/Logo4.PNG" alt="Logo Charlotte Brigaderia" class="hero-logo">
+                <p>Deixe sua festa ainda mais especial com nossos brigadeiros artesanais, feitos com amor e ingredientes de alta qualidade. Cada mordida é uma explosão de sabor que encantará todos os convidados!</p>
+                <a href="#sobre" class="hero-btn">Conheça Nossa História</a>
+            </div>
+        </div>
+    </section>
+    <div class="divider-wave-bordo"></div>
+            <!-- Hamburger Menu Button -->
+    <button id="hamburger-btn" class="hamburger-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <!-- Sidebar -->
+    <div id="sidebar" class="sidebar">
+        <ul>
+            <li><a href="#sobre">QUEM SOMOS</a></li>
+            <li><a href="#brigadeiro-movel">BRIGADEIRO MÓVEL</a></li>
+            <li><a href="#fondue-cascata">FONDUE E CASCATA DE CHOCOLATE</a></li>
+            <li><a href="#mesa-doces-mineiros">MESA DE DOCES MINEIROS</a></li>
+            <li><a href="#carrinho-guloseimas">CARRINHO OU MESA DE GULOSEIMAS</a></li>
+            <li><a href="#hot-dog">HOT DOG</a></li>
+            <li><a href="#contato">CONTATOS</a></li>
+        </ul>
+    </div>
+
+<section id="sobre" class="section sobre">
+        <div class="container">
+                <h2>Quem Somos</h2>
+                <div class="sobre-content">
+                        <div class="sobre-image">
+                                <img src="img/SobreMim.png" alt="Jacqueline Mesquita, fundadora da Charlotte Brigaderia" class="jacqueline-image">
+                        </div>
+                        <div class="sobre-text">
+                                <p>Sou Jacqueline Mesquita, fundadora da Charlotte Brigaderia & Eventos, nascida do desejo de unir família, gastronomia e design. Comecei na pandemia com bolos e brigadeiros e o sucesso virou uma marca com propósito: encantar corações e celebrar a criança interior.</p>
+                                <p>Oferecemos carrinhos gourmet temáticos com brigadeiros, açaí, sorvetes, fondue, cascata de chocolate, guloseimas, hot dog e doces mineiros.</p>
+                                <p>Usamos ingredientes de alta qualidade e cuidamos de cada detalhe para transformar momentos em lembranças inesquecíveis.</p>
+                        </div>
+                </div>
+        </div>
+        </section>
+    <!--<section id="servicos" class="section servicos">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="servico" id="brigadeiro-movel">
+                <h3>Brigadeiro Durante a Festa</h3>
+                <p>Encante seus convidados com momentos doces e inesquecíveis! Servir brigadeiros fresquinhos durante a festa é aquele detalhe que transforma o evento em uma experiência ainda mais especial.</p>
+                <h4>2 Sabores de Brigadeiro</h4>
+                <ul>
+                    <li>Ao Leite</li>
+                    <li>Caramelo Salgado</li>
+                    <li>Limão Siciliano</li>
+                    <li>Meio Amargo</li>
+                    <li>Opereta</li>
+                    <li>Romeu & Julieta</li>
+                    <li>Branco</li>
+                    <li>Ninho</li>
+                    <li>Passas ao Rum</li>
+                    <li>Baunilha</li>
+                    <li>Crocante</li>
+                    <li>Doce de Leite</li>
+                    <li>Coco</li>
+                    <li>Frutas Vermelhas</li>
+                    <li>Churros</li>
+                    <li>Cajuzinho</li>
+                    <li>Sensação</li>
+                    <li>Paçoca</li>
+                    <li>Beijinho</li>
+                    <li>Maracujá</li>
+                    <li>Cookies</li>
+                </ul>
+                <h4>6 Confeitos</h4>
+                <ul>
+                    <li>Granulado Chocolate</li>
+                    <li>Granu Colorido</li>
+                    <li>Flocos Arroz</li>
+                    <li>Granulado Branco</li>
+                    <li>Confete</li>
+                    <li>Granu Amendoim</li>
+                    <li>Leite em Pó</li>
+                    <li>Jujuba</li>
+                    <li>Óreo</li>
+                    <li>Coco</li>
+                    <li>Bala de Goma</li>
+                    <li>Gota de Chocolate</li>
+                    <li>Coco Queimado</li>
+                    <li>Marshmallow</li>
+                    <li>Paçoca</li>
+                    <li>Suspiro</li>
+                    <li>Bala Delícia</li>
+                    <li>Bis</li>
+                    <li>Maria Mole</li>
+                    <li>Mini Boll</li>
+                    <li>Canudinho</li>
+                </ul>
+                <h4>Preços</h4>
+                <ul>
+                    <li>30 Convidados: R$ 650,00</li>
+                    <li>50 Convidados: R$ 750,00</li>
+                    <li>80 Convidados: R$ 850,00</li>
+                    <li>100 Convidados: R$ 950,00</li>
+                    <li>130 Convidados: R$ 1.250,00</li>
+                    <li>150 Convidados: R$ 1.350,00</li>
+                    <li>180 Convidados: R$ 1.750,00</li>
+                    <li>200 Convidados: R$ 1.850,00</li>
+                    <li>250 Convidados: R$ 2.100,00</li>
+                </ul>
+                <p>O que está incluído: 2 Sabores de Brigadeiros à sua escolha, 6 Confeitos Irresistíveis, Promotora para servir com carinho e atenção, 4 Horas de Evento, Deslocamento para Belo Horizonte.</p>
+                <p>Personalização da Tampa do Carrinho: R$ 45,00, os copinhos saem como cortesia. Criança a partir de 5 anos já contam como convidados. Para eventos corporativos o orçamento é personalizado.</p>
+            </div>
+            <div class="servico" id="fondue-cascata">
+                <h3>Fondue e Cascata de Chocolate</h3>
+                <p>Uma experiência irresistível que transforma qualquer evento em um momento inesquecível! A combinação da cascata de chocolate derretido com frutas fresquinhas e acompanhamentos deliciosos é garantia de encantar convidados de todas as idades.</p>
+                <h4>Frutas Disponíveis</h4>
+                <ul>
+                    <li>Banana</li>
+                    <li>Morango</li>
+                    <li>Manga</li>
+                    <li>Uva</li>
+                    <li>Abacaxi</li>
+                    <li>Melão</li>
+                </ul>
+                <h4>Acompanhamentos</h4>
+                <ul>
+                    <li>Bolo Amanteigado</li>
+                    <li>Suspiro</li>
+                    <li>Marshmallow</li>
+                    <li>Waffer</li>
+                    <li>Flocos de Arroz</li>
+                    <li>Óreo Triturado</li>
+                    <li>Chocomole</li>
+                    <li>Tubettes</li>
+                    <li>Madeleine</li>
+                    <li>Elgorriaga</li>
+                    <li>Cookies</li>
+                    <li>Maria Mole</li>
+                </ul>
+                <h4>Preços</h4>
+                <ul>
+                    <li>50 Convidados: R$ 880,00</li>
+                    <li>80 Convidados: R$ 990,00</li>
+                    <li>100 Convidados: R$ 1.150,00</li>
+                    <li>130 Convidados: R$ 1.480,00</li>
+                    <li>150 Convidados: R$ 1.625,00</li>
+                    <li>200 Convidados: R$ 2.150,00</li>
+                    <li>250 Convidados: R$ 2.575,00</li>
+                    <li>300 Convidados: R$ 3.050,00</li>
+                </ul>
+                <p>O que está incluído: 3 Frutas à sua Escolha, 3 Acompanhamentos Irresistíveis, Cascata + Ganache Cremosa de Chocolate, Promotora para Servir com Carinho, 3 Horas de Evento, Descartáveis, Personalização do Carrinho, Deslocamento para Belo Horizonte.</p>
+                <p>Criança a partir de 5 anos já contam como convidados. Para eventos corporativos o orçamento é personalizado.</p>
+                <h4>Adicionais</h4>
+                <ul>
+                    <li>Cascão de Sorvete: 50 unidades - R$ 60,00</li>
+                    <li>Cestinha de Biscoito: 50 unidades - R$ 55,00</li>
+                    <li>Frutas da Estação: 400g - R$ 45,00</li>
+                    <li>Complementos Extras: R$ 20,00</li>
+                    <li>Cascata Chocolate Branco - R$ 65,00</li>
+                </ul>
+            </div>
+
+            <div class="servico">
+                <h3>Açaí e Sorvete Durante a Festa</h3>
+                <p>Existe combinação melhor para o verão do que sorvete e açaí? Nós também desconhecemos! Oferecemos até dois sabores à sua escolha, servidos em copinhos personalizados de acordo com o número de convidados da sua festa.</p>
+                <h4>Sabores - 2 Opções</h4>
+                <ul>
+                    <li>Açaí</li>
+                    <li>Abacaxi</li>
+                    <li>Beijinho</li>
+                    <li>Bombom</li>
+                    <li>Chocolate</li>
+                    <li>Coco</li>
+                    <li>Creme</li>
+                    <li>Ferrero</li>
+                    <li>Flocos</li>
+                    <li>Kinder</li>
+                    <li>Limão</li>
+                    <li>Maracujá</li>
+                    <li>Morango</li>
+                    <li>Napolitano</li>
+                    <li>Ninho Trufado</li>
+                    <li>Passas ao Rum</li>
+                    <li>Pistache</li>
+                    <li>Quatro Leites</li>
+                    <li>Romeu e Julieta</li>
+                    <li>Sensação</li>
+                    <li>Talento</li>
+                </ul>
+                <h4>Confeitos</h4>
+                <ul>
+                    <li>Granu. Chocolate</li>
+                    <li>Amendoim</li>
+                    <li>Leite em Pó</li>
+                    <li>Confete</li>
+                </ul>
+                <h4>Preços</h4>
+                <ul>
+                    <li>30 Convidados: R$ 650,00</li>
+                    <li>50 Convidados: R$ 790,00</li>
+                    <li>80 Convidados: R$ 890,00</li>
+                    <li>100 Convidados: R$ 950,00</li>
+                    <li>130 Convidados: R$ 1.250,00</li>
+                    <li>150 Convidados: R$ 1.400,00</li>
+                    <li>180 Convidados: R$ 1.650,00</li>
+                    <li>200 Convidados: R$ 1.800,00</li>
+                    <li>250 Convidados: R$ 2.100,00</li>
+                    <li>300 Convidados: R$ 2.350,00</li>
+                </ul>
+                <p>O que está incluído: 2 Sabores à sua Escolha, 4 Confeitos Deliciosos (Granulado de Chocolate, Granulado de Amendoim, Leite em Pó e Confete), Leite Condensado, Promotora para Servir, 4 Horas de Evento, Deslocamento para Belo Horizonte.</p>
+                <p>Personalizando a Tampa do Carrinho: R$ 45,00 os copinhos saem como cortesia. Criança a partir de 5 anos já contam como convidados. Para eventos corporativos o orçamento é personalizado.</p>
+                <h4>Adicionais</h4>
+                <ul>
+                    <li>Casquinha de Sorvete: 50 unidades - R$ 55,00</li>
+                    <li>Cestinha de Biscoito: 50 unidades - R$ 55,00</li>
+                    <li>Cascão Crocante: 50 unidades: R$ 60,00</li>
+                    <li>Complementos Extras: R$ 20,00</li>
+                </ul>
+            </div>
+            <div class="servico" id="mesa-doces-mineiros">
+                <h3>Mesa de Doces Mineiros</h3>
+                <p>Nada representa melhor o aconchego e a tradição de Minas do que uma mesa recheada de doces típicos. Nossa Mesa de Doces Mineiros leva sabor, memória afetiva e um toque de carinho para o seu evento, encantando convidados de todas as idades.</p>
+                <h4>Opções de Doces - 3</h4>
+                <ul>
+                    <li>Doce de Leite</li>
+                    <li>Leite com Coco</li>
+                    <li>Leite Talhado</li>
+                    <li>Cocada Morena</li>
+                    <li>Cocada Branca</li>
+                    <li>Goiabada Cascão</li>
+                    <li>Goiabada Cremosa</li>
+                    <li>Mamão</li>
+                    <li>Cidra</li>
+                    <li>Abóbora com Coco</li>
+                    <li>Ambrosia</li>
+                    <li>Brigadeiro Queijo</li>
+                </ul>
+                <h4>Compotas - 2</h4>
+                <ul>
+                    <li>Figo</li>
+                    <li>Laranja</li>
+                    <li>Mamão</li>
+                    <li>Pêssego</li>
+                    <li>Morango</li>
+                    <li>Abacaxi</li>
+                </ul>
+                <h4>Doces de Corte - 1</h4>
+                <ul>
+                    <li>Doce de Leite</li>
+                    <li>Gelatina de Cachaça</li>
+                    <li>Amendoim</li>
+                    <li>Rapadura</li>
+                    <li>Paçoca</li>
+                    <li>Bananada</li>
+                    <li>Goiabada</li>
+                    <li>Pé de Moleque</li>
+                    <li>Marmelada</li>
+                </ul>
+                <h4>Sobremesa - 1</h4>
+                <ul>
+                    <li>Pudim de Leite</li>
+                    <li>Manjar de Coco</li>
+                    <li>Manjar 4 Leites</li>
+                    <li>Pudim de Chocolate</li>
+                    <li>Arroz Doce</li>
+                </ul>
+                <h4>Preços</h4>
+                <ul>
+                    <li>50 Convidados: R$ 850,00</li>
+                    <li>80 Convidados: R$ 990,00</li>
+                    <li>100 Convidados: R$ 1.150,00</li>
+                    <li>130 Convidados: R$ 1.480,00</li>
+                    <li>150 Convidados: R$ 1.750,00</li>
+                    <li>200 Convidados: R$ 2.250,00</li>
+                    <li>250 Convidados: R$ 3.200,00</li>
+                </ul>
+                <p>O que está incluído: 3 Doces típicos à sua escolha, 2 Compotas Especiais, 1 Doce de Corte Tradicional, 1 Sobremesa Deliciosa, Queijo Canastra para Harmonizar, Canudinho Recheado com Doce de Leite, Promotora para Servir com Carinho, 4 horas de Evento, Deslocamento para Belo Horizonte.</p>
+                <p>Criança a partir de 5 anos já contam como convidados. Para Eventos Corporativos: Orçamento Personalizado.</p>
+            </div>
+
+            <div class="servico" id="carrinho-guloseimas">
+                <h3>Carrinho ou Mesa de Guloseimas</h3>
+                <p>Mais cor, mais sabor e mais alegria para a sua festa! Nosso Carrinho ou Mesa de Guloseimas é diversão garantida para crianças e adultos, trazendo uma seleção deliciosa de doces e um visual encantador que transforma qualquer evento em um verdadeiro espetáculo.</p>
+                <h4>Guloseimas - 8 Opções</h4>
+                <ul>
+                    <li>Bala Fini</li>
+                    <li>Bala de Goma</li>
+                    <li>Chicletes</li>
+                    <li>Paçoca</li>
+                    <li>Pirulito</li>
+                    <li>Marshmallow</li>
+                    <li>Pipoca Doce</li>
+                    <li>Bala Gelatinosa</li>
+                    <li>Suspiro</li>
+                    <li>Bombons</li>
+                    <li>Jujuba</li>
+                    <li>Bala Delícia</li>
+                    <li>Pé de Moleque</li>
+                    <li>Pé de Moça</li>
+                    <li>Balinhas Amendoim</li>
+                    <li>Pirulito Iogurte</li>
+                    <li>Bala Chita</li>
+                    <li>Pir. Psicodélico</li>
+                    <li>Bis</li>
+                    <li>Bananinha</li>
+                    <li>Dadinho</li>
+                </ul>
+                <h4>Preços</h4>
+                <ul>
+                    <li>50 Convidados: R$ 720,00</li>
+                    <li>80 Convidados: R$ 850,00</li>
+                    <li>100 Convidados: R$ 990,00</li>
+                    <li>130 Convidados: R$ 1.250,00</li>
+                    <li>150 Convidados: R$ 1.490,00</li>
+                    <li>200 Convidados: R$ 1.990,00</li>
+                </ul>
+                <p>O que está incluído: 8 opções de guloseimas à sua escolha, Cone de Papel Personalizados, Promotora Para Servir a Criançada, Descartáveis Inclusos, 4 horas de evento, Deslocamento para Belo Horizonte incluso.</p>
+                <p>Criança a partir de 5 anos já contam como convidados. Para Eventos Corporativos: Orçamento Personalizado. Personalização do Carrinho: R$ 45,00</p>
+            </div>
+
+            <div class="servico" id="hot-dog">
+                <h3>Estação Sanduíches</h3>
+                <p>Mais que um carrinho, uma experiência doce e inesquecível para a sua festa!</p>
+                <h4>Mini Hot Dog Tradicional</h4>
+                <p>Pão Fresquinho, Molho Pomodoro, Salsicha Viena, Batata Palha, Milho, Katchup e Maionese</p>
+                <h4>Mini Hot Dog Alemão</h4>
+                <p>Pão Fresquinho, Molho Honey Mustard, Salsicha Frankfurt, Chucrute e Batata Palha</p>
+                <h4>Preços Mini Hot Dog Tradicional</h4>
+                <ul>
+                    <li>30 convidados: R$ 750,00</li>
+                    <li>50 convidados: R$ 970,00</li>
+                    <li>70 convidados: R$ 1.150,00</li>
+                    <li>80 convidados: R$ 1.350,00</li>
+                    <li>100 convidados: R$ 1.550,00</li>
+                    <li>120 convidados: R$ 1.750,00</li>
+                    <li>130 convidados: R$ 1.850,00</li>
+                    <li>150 convidados: R$ 2.100,00</li>
+                    <li>200 convidados: R$ 2.850,00</li>
+                </ul>
+                <h4>Preços Mini Hot Dog Alemão</h4>
+                <ul>
+                    <li>30 convidados: R$ 690,00</li>
+                    <li>50 convidados: R$ 890,00</li>
+                    <li>80 convidados: R$ 990,00</li>
+                    <li>100 convidados: R$ 1.250,00</li>
+                    <li>130 convidados: R$ 1.450,00</li>
+                    <li>160 convidados: R$ 1.750,00</li>
+                    <li>180 convidados: R$ 1.850,00</li>
+                    <li>200 convidados: R$ 1.990,00</li>
+                </ul>
+            </div>
+        </div>
+    </section> -->
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none" class="serrated-svg">
+        <!-- fundo -->
+        <rect y="0" width="1200" height="100" fill="#8b3552"/>
+
+        <!-- cor única para todas as ondas -->
+        <!-- ondas superiores (três camadas, mesma cor)
+          -->
+           <g fill="#c1903c">
+            <path d="M0,28 C150,6 350,50 600,</g>28 C850,6 1050,50 1200,28 L1200,0 L0,0 Z"/>
+            <path d="M0,18 C160,34 340,2 600,18 C860,34 1040,2 1200,18 L1200,0 L0,0 Z" opacity="0.9"/>
+            <path d="M0,8 C140,20 360,-6 600,8 C840,22 1060,-6 1200,8 L1200,0 L0,0 Z" opacity="0.8"/>
+        </g>
+        
+    <!-- ondas inferiores invertidas para as "ondas" apontarem para baixo -->
+    <g fill="#c1903c">
+      <path d="M0,0 L1200,0 L1200,36 C1050,72 850,16 600,36 C350,56 150,12 0,36 Z"/>
+      <path d="M0,6 L1200,6 L1200,46 C1050,82 850,28 600,46 C350,64 150,22 0,46 Z" opacity="0.9"/>
+      <path d="M0,14 L1200,14 L1200,58 C1050,94 850,40 600,58 C350,76 150,36 0,58 Z" opacity="0.8"/>
+    </g>
+    </svg>
+
+    <section id="contato" class="section contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <p class="sweet-quote">"Doçura que derrete corações e conecta almas!"</p>
+            <div class="contact-cards">
+                <div class="contact-card">
+                    <i class="fas fa-phone-alt"></i>
+                    <h3>Telefone</h3>
+                                        <a href="https://wa.me5531986121129" target="_blank" class="phone-number">+55 (31) 98612-1129</a>
+                </div>
+                <div class="contact-card">
+                    <i class="fab fa-instagram"></i>
+                    <h3>Instagram</h3>
+                    <a href="https://www.instagram.com/charlottebrigaderiabh" target="_blank">@charlottebrigaderiabh</a>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-credit-card"></i>
+                    <h3>Forma de Pagamento</h3>
+                    <p>Pix, Dinheiro, Débito ou Cartão de Crédito (com juros da operadora)</p>
+                </div>
+            </div>
+            <div class="payment-info">
+                <p>Solicitamos 30% para a reserva da data e o restante como você preferir até 2 dias antes do evento.</p>
+                <p>OBSERVAÇÃO: PARA REGIÕES FORA DE BH, CONSULTE A TAXA DE DESLOCAMENTO</p>
+                <p>Agradecemos a Preferência! 😊</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="img/Logo1.PNG" alt="Charlotte Brigaderia Logo" class="footer-logo-img">
+                </div>
+                <div class="footer-text">
+                    <p>&copy; 2025 Charlotte Brigaderia. Todos os direitos reservados.</p>
+                    <p>Code by: <a href="https://github.com/otaviophellipe" target="_blank"><i class="fab fa-github"></i></a> | <a href="https://www.linkedin.com/in/otaviophellipe/" target="_blank"><i class="fab fa-linkedin"></i></a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('hamburger-btn').addEventListener('click', function() {
+            document.getElementById('sidebar').classList.toggle('open');
+            this.classList.toggle('open');
+        });
+
+    document.querySelectorAll('.sidebar a').forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.getElementById('sidebar').classList.remove('open');
+            document.getElementById('hamburger-btn').classList.remove('open');
+            const targetId = this.getAttribute('href');
+            document.querySelector(targetId).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
+    // Search functionality
+    const searchMappings = {
+        'hotdog': '#hot-dog',
+        'hot dog': '#hot-dog',
+        'sanduíche': '#hot-dog',
+        'estação sanduíches': '#hot-dog',
+        'brigadeiro': '#brigadeiro-movel',
+        'brigadeiro móvel': '#brigadeiro-movel',
+        'fondue': '#fondue-cascata',
+        'cascata': '#fondue-cascata',
+        'chocolate': '#fondue-cascata',
+        'doces mineiros': '#mesa-doces-mineiros',
+        'mineiros': '#mesa-doces-mineiros',
+        'guloseimas': '#carrinho-guloseimas',
+        'carrinho guloseimas': '#carrinho-guloseimas',
+        'açaí': '#servicos',
+        'sorvete': '#servicos',
+        'quem somos': '#sobre',
+        'sobre': '#sobre',
+        'contato': '#contato',
+        'contatos': '#contato'
+    };
+
+    function searchSite(query) {
+        const lowerQuery = query.toLowerCase().trim();
+        const sections = document.querySelectorAll('.section');
+        let found = false;
+
+        // First, try exact mappings
+        for (const [key, sectionId] of Object.entries(searchMappings)) {
+            if (lowerQuery.includes(key)) {
+                document.querySelector(sectionId).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                found = true;
+                return;
+            }
+        }
+
+        // If no exact match, search for keywords in section content
+        if (!found) {
+            for (const section of sections) {
+                const textContent = section.textContent.toLowerCase();
+                if (textContent.includes(lowerQuery)) {
+                    section.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                    found = true;
+                    break;
+                }
+            }
+        }
+
+        // If still no match, show alert
+        if (!found) {
+            alert('Nenhum resultado encontrado para: ' + query);
+        }
+    }
+
+    document.getElementById('search-btn').addEventListener('click', function() {
+        const query = document.getElementById('search-input').value;
+        if (query) {
+            searchSite(query);
+        }
+    });
+
+    document.getElementById('search-input').addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            const query = this.value;
+            if (query) {
+                searchSite(query);
+            }
+        }
+    });
+
+    // Scroll-triggered animations
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('animate');
+            }
+        });
+    }, observerOptions);
+
+    // Observe all sections
+    document.querySelectorAll('.section').forEach(section => {
+        observer.observe(section);
+    });
+
+    // Toggle header functionality
+    document.getElementById('toggle-header-btn').addEventListener('click', function() {
+        const header = document.querySelector('.header');
+        const hero = document.querySelector('.hero');
+        const toggleBtn = document.getElementById('toggle-header-btn');
+        const toggleIcon = document.getElementById('toggle-icon');
+        const showBtn = document.getElementById('show-header-btn');
+
+        header.classList.toggle('hidden');
+
+        if (header.classList.contains('hidden')) {
+            hero.style.paddingTop = '0';
+            toggleIcon.src = 'img/header/seta-baixo.png';
+            toggleBtn.classList.add('fixed-toggle');
+            showBtn.style.display = 'flex';
+        } else {
+            hero.style.paddingTop = header.offsetHeight + 'px';
+            toggleIcon.src = 'img/header/seta-cima-bordo.png';
+            toggleBtn.classList.remove('fixed-toggle');
+            showBtn.style.display = 'none';
+        }
+    });
+
+    // Show header button functionality
+    document.getElementById('show-header-btn').addEventListener('click', function() {
+        const header = document.querySelector('.header');
+        const hero = document.querySelector('.hero');
+        const toggleBtn = document.getElementById('toggle-header-btn');
+        const toggleIcon = document.getElementById('toggle-icon');
+        const showBtn = document.getElementById('show-header-btn');
+
+        header.classList.remove('hidden');
+        hero.style.paddingTop = header.offsetHeight + 'px';
+        toggleIcon.src = 'img/header/seta-cima-bordo.png';
+        toggleBtn.classList.remove('fixed-toggle');
+        showBtn.style.display = 'none';
+    });
+
+    // Set initial padding on load
+    window.addEventListener('load', function() {
+        const header = document.querySelector('.header');
+        const hero = document.querySelector('.hero');
+        if (!header.classList.contains('hidden')) {
+            hero.style.paddingTop = header.offsetHeight + 'px';
+        }
+    });
+
+    // Adjust padding on window resize
+    window.addEventListener('resize', function() {
+        const header = document.querySelector('.header');
+        const hero = document.querySelector('.hero');
+        if (!header.classList.contains('hidden')) {
+            hero.style.paddingTop = header.offsetHeight + 'px';
+        }
+    });
+    </script>
+</body>
+</html>
