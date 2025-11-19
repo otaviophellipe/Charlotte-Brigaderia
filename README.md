@@ -22,10 +22,15 @@ O código está em processamento e aguarda ações pendentes do comprador para a
 
 Clone o repositório e abra o arquivo `index.html` em um navegador web.
 
+
 ```bash
 git clone https://github.com/otaviophellipe/Charlotte-Brigaderia.git
 cd Charlotte-Brigaderia
 # Abra index.html no navegador
 ```
+
+ou 
+
+Abra o site `https://otaviophellipe.github.io/Charlotte-Brigaderia` no seu navegador web.
 
 Código por: [Otavio Phellipe](https://www.linkedin.com/in/otaviophellipe/) | [GitHub](https://github.com/otaviophellipe)
